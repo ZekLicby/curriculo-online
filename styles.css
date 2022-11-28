@@ -17,8 +17,14 @@ body {
     flex-direction: column;
 }
 
-.cvSub li {
-    text-align: left;
+.cvSub > article > ul{
+    width: 30%;
+    list-style-type: none;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
 }
 
 .cvMain, .cvSub {
