@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.cvSub {
+    width: 100%;
+    background: rgba(15, 179, 225, 0.747);
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.cvSub li {
+    text-align: left;
+}
+
+.cvMain, .cvSub {
+    padding: 2%;
+}
+
+.cvTxt {
+    text-align: justify;
+}
+
+.cvTxt h3 {
+    color: #1461C9;
+}
+
+.cvTxt h4 {
+    color: #1461C9;
+}
+
+#education li{
+    color: #1461C9;
+    list-style: none;
+}
+
+#education li p{
+    color: #000;
+}
+
+.links{
+    margin-top: 3rem;
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+    color: #1461C9;
+    font-size: 3rem;
+}
+
+h2 {
+    color: #1461C9;
+}
+
+li {
+    text-align: justify;
+    margin: 1%;
+}
+
+hr {
+    border-color: #1461C9;
+}
+
+a{
+    text-align: right;
+    margin: 0.5rem 2rem;
+    color: #FFF;
+    text-decoration: none;
+}
